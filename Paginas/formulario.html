@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--icono de pestaña-->
+    <link rel="shortcut icon" href="../Multimedia/favicon.ico">
+<!--que css estoy usando-->
+    <link rel="stylesheet" href="../CSS/Estilo.css">
+    <title>Consultas Verde Limon</title>
+</head>
+<body>
+    <header id="arriba">
+<!--foto de encabezado-->
+        <div class="fotoconsulta">
+        <img src="../Imagenes/Imagen de WhatsApp 2024-04-15 a las 01.52.45_752a3ae9.jpg" alt="">
+        </div>
+<!--menu de navegacion-->
+        <nav>
+            <ul class="menu">
+<!--link a quienes somos-->
+                <li>
+            <a href="../Paginas/quienessomos.html" ><img src="../Multimedia/quiensomos.jpeg" width="15px" alt=""> ¿Quienes Somos?</a>
+             </li>
+<!--link a stock-->
+             <li>
+            <a href="../Paginas/cuadro_diferencial.html"><img src="../Multimedia/stock.jpeg" width="15px" alt=""> Stock Inmediato</a>
+            </li>
+<!--link a dejar mensaje-->
+            <li>
+            <a href="../Paginas/formulario.html" ><img src="../Multimedia/Consultas.png" width="15px" alt="">Dejanos tu Mensaje!</a>
+            </li>
+<!--link a comentarios-->
+            <li>
+            <a href="../Paginas/comentarios.html"><img src="../Imagenes/nuestros_clientes.avif" width="15px" alt="">Nuestros Clientes</a>
+            </li>
+<!--link a instagram-->
+            <li>
+            <a href="http://www.instagram.com/verde.limon/" target="_blank"><img src="../Multimedia/logo ig.jpeg" width="15px" alt="redes"> Seguinos en Instagram</a>
+            </li>
+        </ul>
+    </nav>
+        <hr>
+<!--encabezado-->
+        <h1 class="charo">Casilla de Mensajes</h1>
+<!--inicio de planilla-->
+        <main class="consultaweb">
+            <form action="">
+                <div>
+<!--nombre-->
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" placeholder="Luis">
+                </div>
+                <br>
+                <div>
+<!--apellido-->
+                    <label for="surname">Apellido:</label>
+                    <input type="text" name="name" placeholder="Ruiz">
+                </div>
+                <br>
+                <div>
+<!--email-->
+                    <label for="mail">Correo Electronico:</label>
+                    <input type="email" name="mail" required>
+                </div>
+                <br>
+                <div>
+<!--telefono-->
+                    <label for="Telefono">Telefono/Celular:</label>
+                    <input type="text" name="number" placeholder="1234567890" >
+                </div>
+                <br>
+                <div>
+<!--consulta de cliente-->
+                    <label for="comment">Consulta:</label>
+                    <input type="text" name="comment"
+                    placeholder="Escribe un Mensaje">
+                </div>
+                <br>
+                <div>
+<!--procedencia del mensaje-->
+                    <label for="pais">¿Desde donde nos consultas?</label>
+                    <select name="pais" id="">
+                        <option value="arg">Argentina</option>
+                        <option value="br">Brasil</option>
+                        <option value="uy">Uruguay</option>
+                    </select>
+                </div>
+<!--enviar/borrar-->
+                <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+            </form>
+        </main>
+    </header>
+<!--pie de pagina-->
+    <footer>verdelimon@gmail.com</footer>
+</body>
+</html>
